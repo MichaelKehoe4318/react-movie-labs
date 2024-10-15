@@ -57,6 +57,7 @@ const MovieDetails = ({ movie }) => {  // Don't miss this!
           label={`${movie.vote_average} (${movie.vote_count}`}
         />
         <Chip label={`Released: ${movie.release_date}`} />
+        <Chip label={`Production country: ${movie.production_countries}`}/>
       </Paper>
       <Fab
         color="secondary"
